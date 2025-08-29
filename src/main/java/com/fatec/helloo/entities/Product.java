@@ -16,6 +16,7 @@ import jakarta.persistence.Table;
 @Table(name="TBL_PRODUCT")
 public class Product implements Serializable{
 
+    //id define a chave primaria
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     //Qual quer coisa em java que começa com letra maiuscula é uma classe 
